@@ -2,4 +2,82 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background: url('https://i.ibb.co/2nR3Q8z/Smurfs-The-Lost-Village-cartoon-Screenshot-HD-Wallpaper-1920x1080-1680x1050.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App {
+  box-shadow: 0px 2px 20px 0px #62cdfd;
+  background: rgba(255, 255, 255, 0.966);
+  height: 800px;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+h1 {
+  margin: 30px 0;
+  color: #448aaa;
+}
+
+.smurf {
+  background-color: #62cdfd;
+  width: 50%;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+
+.smurfList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 15%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+input {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  height: 20px;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid tan;
+  outline: 0;
+  font-size: 1rem;
+}
+
+button {
+  width: 30%;
+  margin: 0 auto;
+  height: 45px;
+  border-radius: 50px;
+  font-size: 1rem;
+  outline: 0;
+  border: 1px solid tan;
+  background: transparent;
+  transition: all .5s ease;
+  margin-bottom: 40px;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: .7;
+  background: tan;
+  color: white;
 }
